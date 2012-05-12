@@ -1,0 +1,7 @@
+Unha aplicación que fará a lóxica independente para o xenerador de contos. Esto tamén me fará mais sinxelo o tema de portar a aplicación a outros OS como iOS ou así. Igual se pode intentar facer xa unha aplicaicon multiplataforma con mono ou ruby ou html5 + javascript ou con un gamengine destes.
+
+A aplicación está pensada para ser escrita en python e como IDE emprega o monodevelop. O ficheiro do proxecto vai incluido.
+
+
+
+

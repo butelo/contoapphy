@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>PythonProject</ItemType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{407241F0-2EF9-4051-88D3-2984BEFA4C69}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>Debug</OutputPath>
+    <Build>
+      <Build Optimize="false" />
+    </Build>
+    <Runtime>
+      <Runtime Module="main" PythonOptions="">
+        <Interpreter path="/usr/bin/python2.6" ctype="Python26Runtime" />
+      </Runtime>
+    </Runtime>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>Release</OutputPath>
+    <Build>
+      <Build Optimize="true" />
+    </Build>
+    <Runtime>
+      <Runtime Module="main" PythonOptions="">
+        <Interpreter path="/usr/bin/python2.6" ctype="Python26Runtime" />
+      </Runtime>
+    </Runtime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="main.py" />
+    <Compile Include="saxHandler.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resultado.xml" />
+    <None Include="books.xml" />
+    <None Include="notas.readme" />
+    <None Include="README" />
+  </ItemGroup>
+</Project>

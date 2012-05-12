@@ -1,0 +1,23 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="contoapphy/notas.readme">
+    <Files>
+      <File FileName="contoapphy/main.py" Line="4" Column="1" />
+      <File FileName="contoapphy/saxHandler.py" Line="12" Column="20" />
+      <File FileName="contoapphy/resultado.xml" Line="2" Column="75" />
+      <File FileName="contoapphy/books.xml" Line="11" Column="11" />
+      <File FileName="contoapphy/notas.readme" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True">
+          <Node name="contoapphy" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
