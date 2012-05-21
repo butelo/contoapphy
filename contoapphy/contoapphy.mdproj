@@ -35,6 +35,8 @@
   <ItemGroup>
     <Compile Include="main.py" />
     <Compile Include="handlers\saxHandler.py" />
+    <Compile Include="handlers\handlers.py" />
+    <Compile Include="handlers\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <None Include="resultado.xml" />
