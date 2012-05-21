@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="main.py" />
-    <Compile Include="saxHandler.py" />
+    <Compile Include="handlers\saxHandler.py" />
   </ItemGroup>
   <ItemGroup>
     <None Include="resultado.xml" />
@@ -42,5 +42,9 @@
     <None Include="notas.readme" />
     <None Include="README" />
     <None Include="dtd.xml" />
+    <None Include="texto.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="handlers\" />
   </ItemGroup>
 </Project>

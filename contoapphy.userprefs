@@ -1,20 +1,22 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="contoapphy/notas.readme">
+  <MonoDevelop.Ide.Workbench ActiveDocument="contoapphy/texto.xml">
     <Files>
-      <File FileName="contoapphy/main.py" Line="4" Column="1" />
-      <File FileName="contoapphy/saxHandler.py" Line="1" Column="1" />
+      <File FileName="contoapphy/main.py" Line="1" Column="1" />
       <File FileName="contoapphy/resultado.xml" Line="1" Column="1" />
       <File FileName="contoapphy/books.xml" Line="1" Column="1" />
       <File FileName="contoapphy/notas.readme" Line="1" Column="124" />
-      <File FileName="contoapphy/dtd.xml" Line="57" Column="8" />
+      <File FileName="contoapphy/dtd.xml" Line="1" Column="1" />
       <File FileName="contoapphy/README" Line="1" Column="1" />
+      <File FileName="contoapphy/texto.xml" Line="13" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="contoapphy" expanded="True">
-            <Node name="notas.readme" selected="True" />
+            <Node name="handlers" expanded="True">
+              <Node name="saxHandler.py" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
