@@ -37,6 +37,10 @@
     <Compile Include="handlers\saxHandler.py" />
     <Compile Include="handlers\handlers.py" />
     <Compile Include="handlers\__init__.py" />
+    <Compile Include="res\drawable-hdpi\__init__.py" />
+    <Compile Include="res\drawable-mdpi\__init__.py" />
+    <Compile Include="res\layout\__init__.py" />
+    <Compile Include="res\values\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <None Include="resultado.xml" />
@@ -48,5 +52,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="handlers\" />
+    <Folder Include="res\" />
+    <Folder Include="res\drawable-hdpi\" />
+    <Folder Include="res\drawable-mdpi\" />
+    <Folder Include="res\layout\" />
+    <Folder Include="res\values\" />
   </ItemGroup>
 </Project>
